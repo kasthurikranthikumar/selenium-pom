@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;in.theyachtclub.automation.pom.driver.BaseDriver&apos; to &apos;BaseClass&apos;&#x0D;&#x0A;- Original project: &apos;automation&apos;&#x0D;&#x0A;- Original element: &apos;in.theyachtclub.automation.pom.driver.BaseDriver&apos;&#x0D;&#x0A;- Renamed element: &apos;in.theyachtclub.automation.pom.driver.BaseClass&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;BaseDriver&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java&lt;in.theyachtclub.automation.pom.driver{BaseDriver.java[BaseDriver" matchStrategy="1" name="BaseClass" qualified="false" references="true" similarDeclarations="false" stamp="1461428504259" textual="false" version="1.0"/>
+</session>

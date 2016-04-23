@@ -1,0 +1,41 @@
+package in.theyachtclub.automation.utils;
+
+import java.util.Random;
+
+public class Utilities {
+
+	public String randomNumber() {
+		Random randomGenerator = new Random();
+		int randomInt = randomGenerator.nextInt(100);
+		String aString = Integer.toString(randomInt);
+		return aString;
+	}
+
+	public String randomLongStrings() {
+		StringBuilder builder = new StringBuilder();
+
+		for (int i = 0; i <= 299; i++) {
+			int rnd = (int) (Math.random() * 52); // or use Random or whatever
+			char base = (rnd < 26) ? 'A' : 'a';
+			char x = (char) (base + rnd % 26);
+			builder.append(x);
+		}
+		return (builder.toString());
+	}
+
+	public void generate10Digit() {
+
+		int maxdigits = 9; // Change to needed # of digits
+		StringBuilder result = new StringBuilder();
+		Random r = new Random(); // Seed with what you feel is appropriate
+		for (int i = 0; i < maxdigits; i++) {
+			result.append(r.nextInt(10)); // Append a number from 0 to 9
+		}
+		String key = result.toString();	
+	}
+
+	public float toFloat(String s) {
+		float s1 = Float.parseFloat(s);
+		return s1;
+	}
+}

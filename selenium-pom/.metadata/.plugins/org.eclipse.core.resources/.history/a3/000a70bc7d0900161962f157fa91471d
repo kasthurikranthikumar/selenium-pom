@@ -1,0 +1,15 @@
+package in.theyachtclub.automation.pom.pages;
+
+import org.openqa.selenium.WebDriver;
+
+import in.theyachtclub.automation.pom.driver.BaseClass;
+
+public class MenuPage extends BaseClass {
+	private WebDriver driver;
+
+	public MenuPage(WebDriver driver) {
+		this.driver = driver;
+	}
+
+
+}

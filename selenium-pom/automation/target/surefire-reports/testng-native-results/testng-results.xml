@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="25614" started-at="2016-04-23T19:06:56Z" finished-at="2016-04-23T19:07:22Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="25614" started-at="2016-04-23T19:06:56Z" finished-at="2016-04-23T19:07:22Z">
+      <class name="in.theyachtclub.automation.pom.tests.HomePageTest">
+        <test-method status="PASS" signature="startWebdriverSession()[pri:0, instance:in.theyachtclub.automation.pom.tests.HomePageTest@5b4b6ec8]" name="startWebdriverSession" is-config="true" duration-ms="24748" started-at="2016-04-24T00:36:56Z" finished-at="2016-04-24T00:37:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebdriverSession -->
+        <test-method status="PASS" signature="m1()[pri:0, instance:in.theyachtclub.automation.pom.tests.HomePageTest@5b4b6ec8]" name="m1" duration-ms="809" started-at="2016-04-24T00:37:21Z" finished-at="2016-04-24T00:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- in.theyachtclub.automation.pom.tests.HomePageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

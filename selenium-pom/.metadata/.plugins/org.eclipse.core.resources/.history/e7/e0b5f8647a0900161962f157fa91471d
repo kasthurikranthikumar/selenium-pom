@@ -1,0 +1,5 @@
+package in.theyachtclub.automation.pom.pages;
+
+public class HomePage {
+
+}

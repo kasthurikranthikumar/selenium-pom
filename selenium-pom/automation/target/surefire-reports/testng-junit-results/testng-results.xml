@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="84" started-at="2016-04-23T19:07:23Z" finished-at="2016-04-23T19:07:23Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="84" started-at="2016-04-23T19:07:23Z" finished-at="2016-04-23T19:07:23Z">
+      <class name="in.theyachtclub.automation.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(in.theyachtclub.automation.AppTest)]" name="testApp" duration-ms="3" started-at="2016-04-24T00:37:23Z" finished-at="2016-04-24T00:37:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- in.theyachtclub.automation.AppTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
