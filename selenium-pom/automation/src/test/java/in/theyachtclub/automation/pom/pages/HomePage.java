@@ -6,6 +6,11 @@ import org.openqa.selenium.WebDriver;
 import in.theyachtclub.automation.pom.driver.BaseClass;
 
 public class HomePage {
+	
+	By linkLearnSailing = By.linkText("LEARN SAILING");
+	By linkQuickExp = By.linkText("quick experiences");
+	By linkTest = By.cssSelector("#mainNavigation a");
+	
 	private WebDriver driver;
 
 	public HomePage(WebDriver driver) {
@@ -13,14 +18,14 @@ public class HomePage {
 	}
 
 	public void NavigateToLearnSailing() {
-		driver.findElement(By.linkText("LEARN SAILING")).click();
+		driver.findElement(linkLearnSailing).click();
 	}
 
 	public void NavigateToQuickExp() {
-		driver.findElement(By.linkText("quick experiences")).click();
+		driver.findElement(linkQuickExp).click();
 	}
 
 	public void m1() {
-		driver.findElement(By.cssSelector("#mainNavigation a")).click();
+		driver.findElement(linkTest).click();
 	}
 }
