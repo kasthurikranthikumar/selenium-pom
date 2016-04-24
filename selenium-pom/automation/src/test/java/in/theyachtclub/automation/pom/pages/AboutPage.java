@@ -6,6 +6,9 @@ import org.openqa.selenium.WebDriver;
 import in.theyachtclub.automation.pom.driver.BaseClass;
 
 public class AboutPage {
+	By linkHowToStart = By.linkText("How it all started");
+	By linkToDignity = By.linkText("Dignity Through Sports-CSR");
+			
 	private WebDriver driver;
 
 	public AboutPage(WebDriver driver) {
@@ -13,10 +16,10 @@ public class AboutPage {
 	}
 
 	public void NavigateToHowItsStarted() {
-		driver.findElement(By.linkText("How it all started")).click();
+		driver.findElement(linkHowToStart).click();
 	}
 
 	public void NavigateToDignity() {
-		driver.findElement(By.linkText("Dignity Through Sports-CSR")).click();
+		driver.findElement(linkToDignity).click();
 	}
 }
